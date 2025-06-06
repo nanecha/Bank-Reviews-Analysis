@@ -1,0 +1,23 @@
+{
+    // Python interpreter configuration
+    "python.pythonPath": "F:/Week1_Challenge/Weekone/Scripts/python.exe", // Adjust path to your virtual environment or global Python
+    "python.defaultInterpreterPath": "F:/Week1_Challenge/Weekone/Scripts/python.exe", // Ensures consistent Python version
+    "python.venvPath": "F:/Week1_Challenge/Weekone/", // Path to virtual environment (if used)
+
+    // Linting and formatting
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--max-line-length=120", // Matches PEP 8 with some flexibility
+        "--disable=C0111" // Disable missing docstring warning if not all functions are documented yet
+    ],
+    "python.formatting.provider": "black", // Use Black for consistent formatting
+    "python.formatting.blackArgs": ["--line-length", "120"], // Align with linting
+    "editor.formatOnSave": true, // Auto-format on save
+    "editor.codeActionsOnSave": {
+        "source.fixAll": true // Apply fixes (e.g., linting) on save
+    }
+}
+    // Jupyter Notebook settings
+    // "jupyter.jupyterServerType": "local", // Uncoment if using Jupyter locally
+    // "jupyter.notebookFileRoot": "${workspaceFolder}", // Set root for Jupyter notebooks
