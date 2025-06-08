@@ -8,4 +8,10 @@
 3. Run analysis: `python scripts/run_pipeline.py
 # Bank-Reviews-Analysis
 google play scraping 
+- Collecting individual bank Reviews**
+ - Normalize Date**
+ - data cleaning 
+ -sentimental anlasysis
+ - visualization
+
 
