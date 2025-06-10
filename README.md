@@ -53,5 +53,4 @@ reviews = fetch_reviews(banks)
 - Sentiment by bank and rating
 - Top keywords in positive/negative reviews
 - Thematic analysis results
-# Task-3 stored cleaned in oracle 
-   
+# Task-3 stored cleaned in oracle database
