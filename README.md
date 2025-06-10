@@ -54,3 +54,6 @@ reviews = fetch_reviews(banks)
 - Top keywords in positive/negative reviews
 - Thematic analysis results
 # Task-3 stored cleaned in oracle database
+# Task-4  Insights and Recommendations
+- Derive insights from sentiment and themes, visualize results, and recommend app improvements
+- Visualization:
